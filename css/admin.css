@@ -1,0 +1,52 @@
+@media screen {
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v4/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+}
+
+#commentifyBox
+	{
+	background: #43423d url('../img/bg.png') 0 0 repeat;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 22px;
+	text-shadow: 0 0 1px #aaa;
+	color: #eee;
+	margin: 40px 20px 20px 0;
+	padding: 5px 20px 20px 20px;
+	box-shadow: 0 0 10px #000;
+	border-radius: 5px;
+	}
+
+#commentifyBox p, #commentifyBox span
+	{
+	font-size: 14px;
+	}
+
+#commentifyBox p a
+	{
+	color: #f8d10c;
+	text-shadow: 0 0 1px #f8d10c;
+	text-decoration: none;
+	}
+
+#commentifyBox table
+	{
+	margin: 0 0 30px 15px;
+	padding: 10px 20px;
+	border: 1px solid #999;
+	border-radius: 5px;
+	}
+
+#commentifyBox table, #commentifyBox table th, #commentifyBox table td
+	{
+	font-size: 16px;
+	}
+
+#commentifyBox table th, #commentifyBox table td
+	{
+	padding: 5px;
+	text-align: left;
+	}
